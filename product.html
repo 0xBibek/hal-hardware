@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hal-Hardware Shopping</title>
+
+    <link href="//fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+
+        <div class="row min-vh-100">
+            <div class="col-12">
+                <header class="row">
+                    <!-- Top Nav -->
+                    <div class="col-12 bg-dark py-2 d-md-block d-none">
+                        <div class="row">
+                            <div class="col-auto mr-auto">
+                                <ul class="top-nav">
+                                    <li>
+                                        <a href="tel:+61426980710"><i class="fa fa-phone-square mr-2"></i>+61426980710</
+                                    </li>
+                                    <li>
+                                        <a href="mailto:halhardware@info.com"><i class="fa fa-envelope mr-2"></i>halhardwarare@info.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-auto">
+                                <ul class="top-nav">
+                                    <li>
+                                        <a href="register.html"><i class="fas fa-user-edit mr-2"></i>Register</a>
+                                    </li>
+                                    <li>
+                                        <a href="login.html"><i class="fas fa-sign-in-alt mr-2"></i>Login</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Top Nav -->
+
+                    <!-- Header -->
+                    <div class="col-12 bg-white pt-4">
+                        <div class="row">
+                            <div class="col-lg-auto">
+                                <div class="site-logo text-center text-lg-left">
+                                    <a href="index.html">Hal Hardware</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 mx-auto mt-4 mt-lg-0">
+                                <form action="#">
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <input type="search" class="form-control border-dark" placeholder="Search..." required>
+                                            <div class="input-group-append">
+                                                <button class="btn btn-outline-dark"><i class="fas fa-search"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-auto text-center text-lg-left header-item-holder">
+                                <a href="#" class="header-item">
+                                    <i class="fas fa-heart mr-2"></i><span id="header-favorite">0</span>
+                                </a>
+                                <a href="cart.html" class="header-item">
+                                    <i class="fas fa-shopping-bag mr-2"></i><span id="header-qty" class="mr-3">2</span>
+                                    
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Nav -->
+                        <div class="row">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-white col-12">
+                                <button class="navbar-toggler d-lg-none border-0" type="button" data-toggle="collapse" data-target="#mainNav">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="mainNav">
+                                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="electronics" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Electronics</a>
+                                            <div class="dropdown-menu" aria-labelledby="electronics">
+                                                <a class="dropdown-item" href="category.html">Water Pressure</a>
+                                                <a class="dropdown-item" href="category.html">Power Tools</a>
+                                                <a class="dropdown-item" href="category.html">Water Pumps</a>
+                                                <a class="dropdown-item" href="category.html">Heaters</a>
+                                                <a class="dropdown-item" href="category.html">Wood Working</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="Garage Equipment" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Garage Equipment</a>
+                                            <div class="dropdown-menu" aria-labelledby="Garage Equipment">
+                                                <a class="dropdown-item" href="category.html">All tools</a>
+                                                <a class="dropdown-item" href="category.html">Ramps/Stands</a>
+                                                <a class="dropdown-item" href="category.html">Battery chargers and testers</a>
+                                                <a class="dropdown-item" href="category.html">Accessories</a>
+                                                <a class="dropdown-item" href="category.html">Garage Storages</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="Hand Tools" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hand Tools </a>
+                                            <div class="dropdown-menu" aria-labelledby="Hand Tools">
+                                                <a class="dropdown-item" href="category.html">ScrewDrivers Set</a>
+                                                <a class="dropdown-item" href="category.html">Scoket Sets</a>
+                                                <a class="dropdown-item" href="category.html">Hammers and Cutters</a>
+                                                <a class="dropdown-item" href="category.html">Accessories</a>
+                                                
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- Nav -->
+
+                    </div>
+                    <!-- Header -->
+
+                </header>
+            </div>
+
+
+
+<!-- END OF HEADER -->
+
+
+            <div class="col-12">
+                <!-- Main Content -->
+                <main class="row">
+                    <div class="col-12 bg-white py-3 my-3">
+                        <div class="row">
+
+                            <!-- Product Images -->
+                            <div class="col-lg-5 col-md-12 mb-3">
+                                <div class="col-12 mb-3">
+                                    <div class="img-large border" style="background-image: url('images/image-1.jpg')"></div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-sm-2 col-3">
+                                            <div class="img-small border" style="background-image: url('images/image-1.jpg')" data-src="images/image-1.jpg"></div>
+                                        </div>
+                                        <div class="col-sm-2 col-3">
+                                            <div class="img-small border" style="background-image: url('images/image-2.jpg')" data-src="images/image-2.jpg"></div>
+                                        </div>
+                                        <div class="col-sm-2 col-3">
+                                            <div class="img-small border" style="background-image: url('images/image-3.jpg')" data-src="images/image-3.jpg"></div>
+                                        </div>
+                                        <div class="col-sm-2 col-3">
+                                            <div class="img-small border" style="background-image: url('images/image-4.jpg')" data-src="images/image-4.jpg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product Images -->
+
+                            <!-- Product Info -->
+                            <div class="col-lg-5 col-md-9">
+                                <div class="col-12 product-name large">
+                                    Top quality 'pro' use junior hacksaw for all sorts of general metal & metal alloy cutting. Compact size means it's particularly useful for smaller jobs, or where space is tight and access awkward.
+                                    <small>By <a href="#">HalHardware</a></small>
+                                </div>
+                                <div class="col-12 px-0">
+                                    <hr>
+                                </div>
+                                <div class="col-12">
+                                    <ul>
+                                        <li>150mm (approx. 6") blade length</li>
+                                        <li>32TPI blade for rapid cutting</li>
+                                        <li>Strong metal frame means higher blade tension for better cutting results</li>
+                                        <li>Secure & comfortable sawing thanks to ergonomic handle</li>
+                                        <li>Easy blade tensioning</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Product Info -->
+
+                            <!-- Sidebar -->
+                            <div class="col-lg-2 col-md-3 text-center">
+                                <div class="col-12 border-left border-top sidebar h-100">
+                                    <div class="row">
+                                        <div class="col-12">
+                                        <span class="detail-price">
+                                            $8
+                                        </span>
+                                            <span class="detail-price-old">
+                                            $9
+                                        </span>
+                                        </div>
+                                        <div class="col-xl-5 col-md-9 col-sm-3 col-5 mx-auto mt-3">
+                                            <div class="form-group">
+                                                <label for="qty">Quantity</label>
+                                                <input type="number" id="qty" min="1" value="1" class="form-control" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 mt-3">
+                                            <a href="cart.html"><button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button></a>
+                                        </div>
+                                        <div class="col-12 mt-3">
+                                            <button class="btn btn-outline-secondary btn-sm" type="button"><i class="fas fa-heart mr-2"></i>Add to wishlist</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Sidebar -->
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 mb-3 py-3 bg-white text-justify">
+                        <div class="row">
+
+                            <!-- Ratings & Reviews -->
+                            <div class="col-md-5">
+                                <div class="col-12 px-md-4 border-top border-left sidebar h-100">
+
+                                    <!-- Rating -->
+                                    <div class="row">
+                                        <div class="col-12 mt-md-0 mt-3 text-uppercase">
+                                            <h2><u>Ratings & Reviews</u></h2>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-sm-4 text-center">
+                                                    <div class="row">
+                                                        <div class="col-12 average-rating">
+                                                            4.1
+                                                        </div>
+                                                        <div class="col-12">
+                                                            of 100 reviews
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <ul class="rating-list mt-3">
+                                                        <li>
+                                                            <div class="progress">
+                                                                <div class="progress-bar bg-dark" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+                                                            </div>
+                                                            <div class="rating-progress-label">
+                                                                5<i class="fas fa-star ml-1"></i>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="progress">
+                                                                <div class="progress-bar bg-dark" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+                                                            </div>
+                                                            <div class="rating-progress-label">
+                                                                4<i class="fas fa-star ml-1"></i>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="progress">
+                                                                <div class="progress-bar bg-dark" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+                                                            </div>
+                                                            <div class="rating-progress-label">
+                                                                3<i class="fas fa-star ml-1"></i>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="progress">
+                                                                <div class="progress-bar bg-dark" role="progressbar" style="width: 7%;" aria-valuenow="7" aria-valuemin="0" aria-valuemax="100">7%</div>
+                                                            </div>
+                                                            <div class="rating-progress-label">
+                                                                2<i class="fas fa-star ml-1"></i>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="progress">
+                                                                <div class="progress-bar bg-dark" role="progressbar" style="width: 3%;" aria-valuenow="3" aria-valuemin="3" aria-valuemax="100">3%</div>
+                                                            </div>
+                                                            <div class="rating-progress-label">
+                                                                1<i class="fas fa-star ml-1"></i>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Rating -->
+
+                                    <div class="row">
+                                        <div class="col-12 px-md-3 px-0">
+                                            <hr>
+                                        </div>
+                                    </div>
+
+                                    <!-- Add Review -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h4>Add Review</h4>
+                                        </div>
+                                        <div class="col-12">
+                                            <form>
+                                                <div class="form-group">
+                                                    <textarea class="form-control" placeholder="Give your review"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="d-flex ratings justify-content-end flex-row-reverse">
+                                                        <input type="radio" value="5" name="rating" id="rating-5"><label
+                                                            for="rating-5"></label>
+                                                        <input type="radio" value="4" name="rating" id="rating-4"><label
+                                                            for="rating-4"></label>
+                                                        <input type="radio" value="3" name="rating" id="rating-3"><label
+                                                            for="rating-3"></label>
+                                                        <input type="radio" value="2" name="rating" id="rating-2"><label
+                                                            for="rating-2"></label>
+                                                        <input type="radio" value="1" name="rating" id="rating-1" checked><label
+                                                            for="rating-1"></label>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <button class="btn btn-outline-dark">Add Review</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <!-- Add Review -->
+
+                                    <div class="row">
+                                        <div class="col-12 px-md-3 px-0">
+                                            <hr>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                            <!-- Comments -->
+                                            <div class="col-12 text-justify py-2 mb-3 bg-gray">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <strong class="mr-2">Steve Rogers</strong>
+                                                        <small>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                        </small>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut ullamcorper quam, non congue odio.
+                                                        <br>
+                                                        Fusce ligula augue, faucibus sed neque non, auctor rhoncus enim. Sed nec molestie turpis. Nullam accumsan porttitor rutrum. Curabitur eleifend venenatis volutpat.
+                                                        <br>
+                                                        Aenean faucibus posuere vehicula.
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <small>
+                                                            <i class="fas fa-clock mr-2"></i>5 hours ago
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <div class="col-12 text-justify py-2 mb-3 bg-gray">
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <strong class="mr-2">Steve Rogers</strong>
+                                                        <small>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                            <i class="far fa-star"></i>
+                                                        </small>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut ullamcorper quam, non congue odio.
+                                                        <br>
+                                                        Fusce ligula augue, faucibus sed neque non, auctor rhoncus enim. Sed nec molestie turpis. Nullam accumsan porttitor rutrum. Curabitur eleifend venenatis volutpat.
+                                                        <br>
+                                                        Aenean faucibus posuere vehicula.
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <small>
+                                                            <i class="fas fa-clock mr-2"></i>5 hours ago
+                                                        </small>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Comments -->
+
+                        </div>
+
+                            <!-- Ratings & Reviews -->
+                        </div>
+                    </div>
+
+                    <!-- Similar Product -->
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-12 py-3">
+                                <div class="row">
+                                    <div class="col-12 text-center text-uppercase">
+                                        <h2>Similar Products</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+
+                                    <!-- Product -->
+                                    <div class="col-lg-3 col-sm-6 my-3">
+                                        <div class="col-12 bg-white text-center h-100 product-item">
+                                            <div class="row h-100">
+                                                <div class="col-12 p-0 mb-3">
+                                                    <a href="product.html">
+                                                        <img src="images/image-1.jpg" class="img-fluid">
+                                                    </a>
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    <a href="product.html" class="product-name">Irwin I75 12" Hacksaw</a>
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    <span class="product-price-old">
+                                                        $9
+                                                    </span>
+                                                    <br>
+                                                    <span class="product-price">
+                                                        $8
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 mb-3 align-self-end">
+                                                    <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Product -->
+
+                                    <!-- Product -->
+                                    <div class="col-lg-3 col-sm-6 my-3">
+                                        <div class="col-12 bg-white text-center h-100 product-item">
+                                            <div class="row h-100">
+                                                <div class="col-12 p-0 mb-3">
+                                                    <a href="product.html">
+                                                        <img src="images/image-2.jpg" class="img-fluid">
+                                                    </a>
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    <a href="product.html" class="product-name">Clarke IQ2000 2kW Infrared Quartz Wall Heater </a>
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $47.98
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 mb-3 align-self-end">
+                                                    <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Product -->
+
+                                    <!-- Product -->
+                                    <div class="col-lg-3 col-sm-6 my-3">
+                                        <div class="col-12 bg-white text-center h-100 product-item">
+                                            <div class="row h-100">
+                                                <div class="col-12 p-0 mb-3">
+                                                    <a href="product.html">
+                                                        <img src="images/image-3.jpg" class="img-fluid">
+                                                    </a>
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    <a href="product.html" class="product-name">Evolution RAGE 5-S 255mm Multi-Purpose TCT Table Saw (110V)</a>
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $298.80
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 mb-3 align-self-end">
+                                                    <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Product -->
+
+                                    <!-- Product -->
+                                    <div class="col-lg-3 col-sm-6 my-3">
+                                        <div class="col-12 bg-white text-center h-100 product-item">
+                                            <div class="row h-100">
+                                                <div class="col-12 p-0 mb-3">
+                                                    <a href="product.html">
+                                                        <img src="images/image-4.jpg" class="img-fluid">
+                                                    </a>
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    <a href="product.html" class="product-name">Clarke BC130C Battery Charger & Engine Starter</a>
+                                                </div>
+                                                <div class="col-12 mb-3">
+                                                    <span class="product-price">
+                                                        $77.99
+                                                    </span>
+                                                </div>
+                                                <div class="col-12 mb-3 align-self-end">
+                                                    <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus mr-2"></i>Add to cart</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Product -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Similar Products -->
+
+                </main>
+                <!-- Main Content -->
+            </div>
+
+            <div class="col-12 align-self-end">
+                <!-- Footer -->
+                <footer class="row">
+                    <div class="col-12 bg-dark text-white pb-3 pt-5">
+                        <div class="row">
+                            <div class="col-lg-2 col-sm-4 text-center text-sm-left mb-sm-0 mb-3">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="footer-logo">
+                                            <a href="index.html">Hal Hardware</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <address>
+                                            221B Baker Street<br>
+                                            London, England
+                                        </address>
+                                    </div>
+                                    <div class="col-12">
+                                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="social-icon"><i class="fab fa-pinterest-p"></i></a>
+                                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-8 text-center text-sm-left mb-sm-0 mb-3">
+                                <div class="row">
+                                    <div class="col-12 text-uppercase">
+                                        <h4>Who are we?</h4>
+                                    </div>
+                                    <div class="col-12 text-justify">
+                                        <p>Welcome to Hal’s Hardware! We are a hardware store based in Ohio. You can find all the tools and equipment necessary for your daily household needs and even for your projects. We provide various online classes to assist you in your special needs. Our friendly staffs demonstrate and hep you in using various power tools virtually so that you can learn from the comfort of your home. We also have a faster delivery process. We have partnered with FedEx so that the goods are delivered fast and conveniently. We are happy to assist you in any way and if you have any difficulty you can contact us through our email/phone number or you can simply send your message via the dialogue box we will reply as soon as possible</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-sm-3 col-5 ml-lg-auto ml-sm-0 ml-auto mb-sm-0 mb-3">
+                                <div class="row">
+                                    <div class="col-12 text-uppercase">
+                                        <h4>Quick Links</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <ul class="footer-nav">
+                                            <li>
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="about.html">Contact & About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="policy.html">TOS & Privacy Policy</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-1 col-sm-2 col-4 mr-auto mb-sm-0 mb-3">
+                                <div class="row">
+                                    <div class="col-12 text-uppercase text-underline">
+                                        <h4>Help</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <ul class="footer-nav">
+                                            <li>
+                                                <a href="FAQ.html">FAQs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Shipping</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Returns</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Track Order</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Report Fraud</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 text-center text-sm-left">
+                                <div class="row">
+                                    <div class="col-12 text-uppercase">
+                                        <h4>Newsletter</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <form action="#">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Enter your email..." required>
+                                            </div>
+                                            <div class="form-group">
+                                                <button class="btn btn-outline-light text-uppercase">Subscribe</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- Footer -->
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
